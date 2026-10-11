@@ -110,11 +110,12 @@ Configured AWS Application Auto Scaling for the ECS service using target trackin
 ![CloudWatch Metrics](Screenshots/cloudwatch-metrix.png)
 
 ### 6. Amazon ECS Fargate Running Tasks
-![ECS Running Tasks](Screenshots/running_task.png)
+
+![ECS Running Tasks](<Screenshots/running _task.png>)
 
 ### 7. ECS Fargate Auto Scaling — 3 Tasks Running
 
-![ECS Auto Scaling - 3 Tasks Running](auto-scaling.png)
+![ECS Auto Scaling](Screenshots/auto-scaling.png)
 
 
 
