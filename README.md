@@ -163,8 +163,8 @@ Configured AWS Application Auto Scaling for the ECS service using target trackin
 Core AWS infrastructure, container deployment, Jenkins CI/CD, and CloudWatch logging and monitoring have been implemented. Further validation and improvements are ongoing.
 
 ## Author
-Hemant Saini 
-
+~ Hemant Saini 
+~ 7849969509
 
 Developed as a hands-on cloud-native DevOps learning project using AWS, Jenkins, Docker, and Terraform.
 
