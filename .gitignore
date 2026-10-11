@@ -9,3 +9,22 @@ terraform/terraform.tfstate.*
 terraform/*.tfplan
 
 .DS_Store
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Terraform local data and sensitive files
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/*.tfvars.json
+**/*.tfplan
+**/crash.log
+**/crash.*.log
+
+# Local credentials
+.aws/
+credentials
