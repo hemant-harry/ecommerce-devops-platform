@@ -1,3 +1,14 @@
+terraform {
+  backend "s3" {
+    bucket       = "hemant-ecommerce-tfstate-2026"
+    key          = "ecommerce-devops-platform/terraform.tfstate"
+    region       = "ap-south-1"
+    encrypt      = true
+    use_lockfile = true
+  }
+}
+
+
 module "vpc" {
   source   = "./modules/vpc"
   vpc_cidr = "10.0.0.0/16"
