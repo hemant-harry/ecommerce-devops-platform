@@ -14,7 +14,7 @@ resource "aws_appautoscaling_policy" "cpu" {
 	scalable_dimension = aws_appautoscaling_target.ecs.scalable_dimension
 
 	target_tracking_scaling_policy_configuration {
-		target_value = 80
+		target_value = 20
 		scale_in_cooldown = 60
 		scale_out_cooldown = 60
 
